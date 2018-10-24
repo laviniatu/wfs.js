@@ -4,7 +4,7 @@
 2. 设置mvhd.duration = 0， 开启浏览器解码的低延时模式（解决延时问题）
 3. 对websocket收到的数据进行帧解析，确保提交给remux的数据是完整的一帧（解决花屏问题）
 4. index.html 添加了rotate180，解决了倒置问题。
-5。详情参考 http://www.cnblogs.com/programmer-wfq/p/7281894.html
+5.详情参考 http://www.cnblogs.com/programmer-wfq/p/7281894.html
 
 ================ 
 wfs.js - html5 player for raw h.264 streams. 
